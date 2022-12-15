@@ -1,0 +1,187 @@
+.c-btn {
+    background-color: dodgerblue;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    height: auto;
+    border: none;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.c-btn:hover {
+    background-color: rgb(32, 127, 223);
+}
+
+body {
+    margin: 0;
+}
+
+.error-text {
+    color: red;
+    font-size: 13px;
+}
+
+.header-error {
+    background-color: crimson;
+    height: auto;
+    padding: 5rem;
+    display: flex;
+
+}
+
+.header-success {
+    background-color: rgb(19, 219, 126);
+    height: auto;
+    padding: 5rem;
+    display: flex;
+
+}
+
+.loader-container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+}
+
+.loader-container img {
+    max-height: 100px;
+}
+
+.flex-alert-container {
+    display: flex;
+}
+
+.flex-alert-container .flex-alert-header {
+    display: flex;
+    height: inherit;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-alert-container .flex-alert-body {
+    flex-direction: row;
+}
+
+.btn-edit {
+    color: rgb(19, 219, 126);
+    cursor: pointer;
+    padding: 10px;
+}
+
+.btn-edit:hover {
+    color: rgb(25, 171, 103);
+
+}
+
+.btn-delete {
+    color: rgb(219, 19, 62);
+    cursor: pointer;
+    padding: 10px;
+}
+
+.btn-delete:hover {
+    color: rgb(172, 21, 53);
+}
+
+.y-btn {
+    background-color: rgb(19, 219, 126);
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 0.2em;
+}
+
+.y-btn:hover {
+    color: #f1f1ff;
+    background-color: rgb(25, 171, 103);
+
+}
+
+.n-btn {
+    background-color: rgb(219, 19, 62);
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 0.2em;
+}
+
+.n-btn:hover {
+    color: #f1f1ff;
+    background-color: rgb(172, 21, 53);
+
+}
+
+.pagination>li>a {
+    color: dodgerblue;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+    background-color: none !important;
+}
+
+.pagination>li.active>a,
+.pagination>li.active>span {
+    background-color: dodgerblue !important;
+    border: 1px solid white !important;
+    color: white !important;
+}
+
+.pagination>li:hover>a,
+.pagination>li:hover>span {
+    background-color: dodgerblue !important;
+    color: white !important;
+}
+
+input:focus,
+input:active {
+    outline: 0px !important;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+}
+
+.form-control:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 0 0.2rem rgb(21, 66, 172);
+}
+
+table.dataTable tbody tr:hover {
+    transition: all .5s;
+    cursor: pointer;
+    background-color: rgb(45, 45, 45);
+    color: white;
+}
+
+table.dataTable thead {
+    height: 40px;
+    font-size: 12px;
+    cursor: pointer;
+    place-items: center;
+    background-color: dodgerblue;
+    color: white;
+}
+
+.product_id {
+    margin-right: 3px;
+    font-size: 11px;
+    background-color: rgb(56, 56, 56);
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.product_id:hover {
+    font-size: 12px;
+    background-color: crimson;
+    color: white;
+}

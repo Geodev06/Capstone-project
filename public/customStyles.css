@@ -1,0 +1,196 @@
+label {
+    font-size: 12px;
+}
+
+a {
+    font-size: 12px;
+}
+
+.xs-p {
+    font-size: 12px;
+}
+
+.error-text {
+    font-size: 12px;
+    color: crimson;
+}
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input:focus,
+input:active {
+    outline: 0px !important;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+}
+
+.radio-container {
+    display: flex;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+.side-navbar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    margin-left: -300px;
+    background-color: rgb(11, 11, 11);
+    transition: 0.5s;
+}
+
+.nav-link:active,
+.nav-link:focus {
+    background-color: #ffffff26;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+.nav-link span {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: rgb(151, 151, 151);
+}
+
+.nav-link span:hover {
+    cursor: pointer;
+    color: rgb(1, 255, 183);
+}
+
+.active {
+    background-color: rgb(73, 73, 73);
+    border-right: 8px solid rgb(1, 255, 183);
+}
+
+.active span {
+    color: rgb(1, 255, 183);
+}
+
+.my-container {
+    transition: 0.4s;
+}
+
+.active-nav {
+    margin-left: 0;
+}
+
+/* for main section */
+.active-cont {
+    margin-left: 250px;
+}
+
+/* .my-container input {
+    border-radius: 2rem;
+    padding: 2px 20px;
+} */
+
+.avatar-container {
+    display: flex;
+    align-items: center;
+}
+
+.user-avatar {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(11, 11, 11);
+    color: cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.name-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-container p {
+    margin: 0;
+}
+
+.card-1 {
+    border-left-width: 4px;
+    border-left-color: dodgerblue;
+}
+
+.card-2 {
+    border-left-width: 4px;
+    border-left-color: seagreen;
+}
+
+.card-3 {
+    border-left-width: 4px;
+    border-left-color: rgb(62, 205, 227);
+}
+
+.card-4 {
+    border-left-width: 4px;
+    border-left-color: rgb(23, 23, 23);
+}
+
+.diff {
+    font-size: 12px;
+}
+
+.btn-edit,
+.btn-delete {
+    cursor: pointer;
+}
+
+.my-bg-1 {
+    background: linear-gradient(to right, #cc0000 0%, #cc0066 100%);
+}
+
+.my-alert-success {
+    color: white;
+    background: #82b74b;
+}
+
+.my-alert-danger {
+    color: white;
+    background: #c94c4c;
+}
+
+.logo-lspu {
+    max-height: 70px;
+}
+
+.btn-registries {
+    border: none;
+    padding: 10px;
+    background-color: seagreen;
+    color: white;
+    border-radius: 2px;
+    font-size: 12px;
+}
+
+.btn-registries:hover {
+    transition: all .3s;
+    background-color: rgb(38, 111, 70);
+
+}
+
+.reg_link {
+    background-color: dodgerblue;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 2px;
+    font-size: 12px;
+}

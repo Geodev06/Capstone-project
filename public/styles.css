@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.login-form {
+  margin-top: 40px;
+  height: auto;
+  margin-bottom: 25px;
+}
+
+.my-logo {
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 20px;
+  color: white;
+}
+
+.my-logo:hover {
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.764);
+}
+
+.my-nav {
+  background-color: #001220;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  transition: all .5s;
+  color: springgreen;
+}
+
+.my-header {
+  position: relative;
+  min-height: 100vh;
+  background-color: #011b2e;
+}
+
+.h-text {
+  padding: 10px;
+  border: 2px solid white;
+}
+
+
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus {
+  border: none;
+  outline: 0 none;
+  box-shadow: none;
+}
+
+a {
+  cursor: pointer;
+}
+
+p,
+label {
+  font-size: 12px;
+}
+
+.input-container {
+  display: flex;
+  background-color: #292F33;
+  padding: 12px;
+  align-items: center;
+  border-radius: 200px;
+}
+
+.input-container i {
+  font-size: 1.3rem;
+  color: white;
+  margin-right: 10px;
+}
+
+.input-container input {
+  background-color: transparent;
+  border: none;
+  color: gainsboro;
+  font-size: 12px;
+  width: 100%;
+}
+
+.alert-container {
+  background-color: crimson;
+  height: auto;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+}
+
+.alert-header {
+  background-color: crimson;
+  padding: 15px;
+}
+
+.alert-body {
+  width: 100%;
+  border-right: 2px solid crimson;
+  color: #292F33;
+  padding: 15px;
+  background-color: aliceblue;
+}
+
+.custom-btn {
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 13px;
+  letter-spacing: 2px;
+  border-radius: 20px;
+  background-color: #292F33;
+  color: springgreen;
+}
+
+.custom-btn:hover {
+  transition: all .5s;
+  background-color: black;
+  color: rgb(38, 249, 144);
+}
+
+.btn-green {
+  height: 50px;
+  width: auto;
+  padding: 13px;
+  background-color: springgreen;
+  color: white;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
+.btn-green:hover {
+  transition: all .5s;
+  background-color: rgb(14, 137, 75);
+  color: gainsboro;
+}
+
+.btn-transparent {
+  height: 50px;
+  width: auto;
+  padding: 13px;
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  border-radius: 2px;
+  border: 1px solid white;
+}
+
+.btn-transparent:hover {
+  transition: all .5s;
+  background-color: rgba(254, 254, 254, 0.94);
+  color: black;
+}
+
+.chart-container {
+  height: 100vh;
+}
+
+.active {
+  border-bottom: 2px solid #4cb8c4;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.my-file {
+  height: 50px;
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  background-color: gray;
+  border-radius: 20px;
+  color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.my-file:hover {
+  transition: all .5s;
+  background-color: rgb(99, 99, 99);
+}
+
+.image-del {
+  cursor: pointer;
+
+}
+
+.image-del:hover {
+  opacity: 0.5;
+  background-color: #292F33;
+}
+
+.my-card {
+  background-color: #212529 !important;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.my-card h4 {
+  font-size: 2.0rem;
+  color: #4cb8c4;
+  font-weight: bolder;
+}
+
+.my-card p {
+  color: gainsboro;
+}
+
+.my-card .icon-container {
+  background: linear-gradient(to right, #4cb8c4 0%, #3cd3ad 100%);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.establishment-card {
+  background-image: url('./assets/img/hotel.png');
+  background-repeat: no-repeat;
+  background-position: 80% 15%;
+  background-size: 80px;
+}
+
+table.dataTable tbody tr:hover {
+  transition: all .5s;
+  cursor: pointer;
+  background-color: rgb(24, 213, 150);
+  color: white;
+}
+
+table.dataTable thead {
+  height: 40px;
+  font-size: 12px;
+  cursor: pointer;
+  place-items: center;
+  background-color: rgb(44, 44, 44);
+  color: rgb(17, 255, 176);
+}
+
+table.dataTable tbody th,
+table.dataTable tbody td {
+  padding: 8px 10px;
+  font-size: 13px;
+}
+
+.btn-overview {
+  outline: none;
+  background-color: rgb(24, 213, 150);
+  cursor: pointer;
+  padding: 4px;
+  margin: 2px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.overview-active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.todo-section {
+  min-height: 100vh;
+}
+
+.about-section-x {
+  min-height: 100vh;
+  background-color: aliceblue;
+}
+
+.about-card {
+  border-radius: 2px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.nearby-section {
+  min-height: 100vh;
+  background-color: azure;
+}
+
+.findus-section {
+  height: 80vh;
+}
+
+.txt-search {
+  border: none;
+  outline: none;
+  padding: 8px 4px;
+  width: 70%;
+}
+
+.list-container {
+  margin-top: 10px;
+  height: 400px;
+  max-height: 400px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  overflow-x: scroll;
+  overflow-y: none;
+}
+
+.list-container::-webkit-scrollbar {
+  width: 4px;
+}
+
+.list-container::-webkit-scrollbar-thumb {
+  background-color: dodgerblue;
+}
+
+#notification-container {
+  max-height: 400px;
+  overflow-y: scroll;
+}
